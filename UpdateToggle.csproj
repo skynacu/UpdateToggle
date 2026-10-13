@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>UpdateToggle</AssemblyName>
+    <RootNamespace>UpdateToggle</RootNamespace>
+    <Version>1.0.0</Version>
+    <Authors>UpdateToggle Contributors</Authors>
+    <Description>Windows Update toggle with infinite pause support - no service disabling, no side effects</Description>
+    <Copyright>Copyright © 2026</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+  </ItemGroup>
+</Project>

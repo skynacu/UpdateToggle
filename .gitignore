@@ -1,0 +1,30 @@
+# Build output
+bin/
+obj/
+*.exe
+*.pdb
+*.dll
+*.cache
+*.log
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Compiled resources
+*.resources
